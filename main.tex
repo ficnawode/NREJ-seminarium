@@ -1,46 +1,24 @@
 \input{preamble.tex}
 
-\title{Presentation Template}
-    \subtitle{\textit{A latex template for presentations}}
+\title{Synergia Jądrowo-Węglowa}
+    \subtitle{\textit{Magazynowanie CO$_2$ przy pomocy energii jądrowej}}
 \author[T. Fic]{Tobiasz Fic}
-\institute[WUT]{Faculty of Physics, Warsaw University of Technology}
+\institute[PW]{Wydział Fizyki, Politechnika Warszawska}
 
-\date{8 December 2023}
+\date{5 listopada 2024}
 
 \begin{document}
 
-\setbeamertemplate{headline}{}
-\setbeamertemplate{footline}{}
 \begin{frame}
     \maketitle
 \end{frame}
 
-\setbeamertemplate{background}{}
-\setbeamertemplate{headline}[pwtemplate]
-\setbeamertemplate{footline}[pwtemplate]
-
-\begin{columnframe}{Column slide}
-    \begin{column}{0.5\textwidth}
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.6\textwidth, frame]{images/pusheen.png}
-        \end{figure}
-    \end{column}
-    \begin{column}{0.5\textwidth}
-        \begin{itemize}
-            \item one \keV
-            \item two \MeV
-            \item three \GeV
-            \item \aegis
-        \end{itemize}
-    \end{column}
-\end{columnframe}
-
-\setbeamertemplate{headline}{}
-\setbeamertemplate{footline}{}
-\begin{frame}{}
-    \centering
-    \Large{Thank you for your attention}
-\end{frame}
+\input{sections/Wstep.tex}
+\input{sections/Elektrownie_Jadrowe.tex}
+\input{sections/Wychwytywanie_CO2.tex}
+\input{sections/Synergia.tex}
+\input{sections/Studia_Przypadkow.tex}
+\input{sections/Przyszlosc_i_Podsumowanie.tex}
+\input{sections/Backup.tex}
 
 \end{document}
